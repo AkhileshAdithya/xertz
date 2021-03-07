@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/xertz/static/css/main.9d5b29c0.chunk.css",
+    "main.js": "/xertz/static/js/main.30789606.chunk.js",
+    "main.js.map": "/xertz/static/js/main.30789606.chunk.js.map",
+    "runtime-main.js": "/xertz/static/js/runtime-main.3287c48c.js",
+    "runtime-main.js.map": "/xertz/static/js/runtime-main.3287c48c.js.map",
+    "static/js/2.2af9699b.chunk.js": "/xertz/static/js/2.2af9699b.chunk.js",
+    "static/js/2.2af9699b.chunk.js.map": "/xertz/static/js/2.2af9699b.chunk.js.map",
+    "static/js/3.799f9504.chunk.js": "/xertz/static/js/3.799f9504.chunk.js",
+    "static/js/3.799f9504.chunk.js.map": "/xertz/static/js/3.799f9504.chunk.js.map",
+    "index.html": "/xertz/index.html",
+    "static/css/main.9d5b29c0.chunk.css.map": "/xertz/static/css/main.9d5b29c0.chunk.css.map",
+    "static/js/2.2af9699b.chunk.js.LICENSE.txt": "/xertz/static/js/2.2af9699b.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/xertz/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3287c48c.js",
+    "static/js/2.2af9699b.chunk.js",
+    "static/css/main.9d5b29c0.chunk.css",
+    "static/js/main.30789606.chunk.js"
+  ]
+}
