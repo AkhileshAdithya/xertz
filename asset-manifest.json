@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/xertz/static/css/main.55d0342e.chunk.css",
-    "main.js": "/xertz/static/js/main.6a17b96d.chunk.js",
-    "main.js.map": "/xertz/static/js/main.6a17b96d.chunk.js.map",
+    "main.js": "/xertz/static/js/main.27ba8d88.chunk.js",
+    "main.js.map": "/xertz/static/js/main.27ba8d88.chunk.js.map",
     "runtime-main.js": "/xertz/static/js/runtime-main.9654355b.js",
     "runtime-main.js.map": "/xertz/static/js/runtime-main.9654355b.js.map",
     "static/css/2.fabbef47.chunk.css": "/xertz/static/css/2.fabbef47.chunk.css",
@@ -18,6 +18,6 @@
     "static/css/2.fabbef47.chunk.css",
     "static/js/2.e80a4142.chunk.js",
     "static/css/main.55d0342e.chunk.css",
-    "static/js/main.6a17b96d.chunk.js"
+    "static/js/main.27ba8d88.chunk.js"
   ]
 }
