@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/xertz/static/css/main.55d0342e.chunk.css",
-    "main.js": "/xertz/static/js/main.27ba8d88.chunk.js",
-    "main.js.map": "/xertz/static/js/main.27ba8d88.chunk.js.map",
+    "main.js": "/xertz/static/js/main.11c4bd3e.chunk.js",
+    "main.js.map": "/xertz/static/js/main.11c4bd3e.chunk.js.map",
     "runtime-main.js": "/xertz/static/js/runtime-main.9654355b.js",
     "runtime-main.js.map": "/xertz/static/js/runtime-main.9654355b.js.map",
     "static/css/2.fabbef47.chunk.css": "/xertz/static/css/2.fabbef47.chunk.css",
-    "static/js/2.e80a4142.chunk.js": "/xertz/static/js/2.e80a4142.chunk.js",
-    "static/js/2.e80a4142.chunk.js.map": "/xertz/static/js/2.e80a4142.chunk.js.map",
+    "static/js/2.496c496e.chunk.js": "/xertz/static/js/2.496c496e.chunk.js",
+    "static/js/2.496c496e.chunk.js.map": "/xertz/static/js/2.496c496e.chunk.js.map",
     "index.html": "/xertz/index.html",
     "static/css/2.fabbef47.chunk.css.map": "/xertz/static/css/2.fabbef47.chunk.css.map",
     "static/css/main.55d0342e.chunk.css.map": "/xertz/static/css/main.55d0342e.chunk.css.map",
-    "static/js/2.e80a4142.chunk.js.LICENSE.txt": "/xertz/static/js/2.e80a4142.chunk.js.LICENSE.txt"
+    "static/js/2.496c496e.chunk.js.LICENSE.txt": "/xertz/static/js/2.496c496e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.9654355b.js",
     "static/css/2.fabbef47.chunk.css",
-    "static/js/2.e80a4142.chunk.js",
+    "static/js/2.496c496e.chunk.js",
     "static/css/main.55d0342e.chunk.css",
-    "static/js/main.27ba8d88.chunk.js"
+    "static/js/main.11c4bd3e.chunk.js"
   ]
 }
