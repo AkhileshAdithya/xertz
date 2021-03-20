@@ -8,7 +8,7 @@ export class BookPreview extends Component {
             <Container>
                 <div className="bookPreview">
                     <Row>
-                        <Col xs={12} lg={3}>
+                        <Col xs={12} lg={3} className="d-flex align-items-center">
                             <Image src={this.props.pic} thumbnail className="bookPreviewImage"/>
                         </Col>
                         <Col xs={12} lg={9}>

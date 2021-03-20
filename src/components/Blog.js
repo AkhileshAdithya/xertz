@@ -15,7 +15,7 @@ export default class Blog extends Component {
                     <Col className="d-flex justify-content-end align-items-end" xs={12} lg={6}>
                         <span className="blog-text-xertz">Xertz</span><span className="blog-text-verb">[verb]</span>
                     </Col>
-                    <Col className="d-flex justify-content-start align-items-center" xs={12} lg={6} >
+                    <Col className="d-flex justify-content-start align-items-center blog-text-small" xs={12} lg={6} >
                         <span className="blog-text-info"> To gulp down enthusiastically, heartily, and quickly.</span>
                     </Col>
                     <Col className="blog-space-small" lg={12}>
@@ -26,7 +26,7 @@ export default class Blog extends Component {
                     </Col>
                 </Row>
                 <Row>
-                    <Col className="d-flex justify-content-center align-items-center" lg={12}>
+                    <Col className="d-flex justify-content-center align-items-center blog-text-small" lg={12}>
                         This is a blog where I review books after I xertz them down.
                     </Col>
                     <Col className="blog-space-big" lg={12}>

@@ -22,6 +22,10 @@
     transition: 0.1s;
     font-size: 4vh;
 }
+.blog-text-small{
+    font-size: 2.3vh;
+    padding-top: 1vh;
+}
 .blog-text:hover{
     color: gray;
     text-decoration: none;

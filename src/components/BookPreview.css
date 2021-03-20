@@ -7,6 +7,7 @@
     -webkit-box-shadow: 7px 8px 48px -8px rgba(0,0,0,0.6);
     -moz-box-shadow: 7px 8px 48px -8px rgba(0,0,0,0.6);
     scale: 101%;
+    cursor: pointer;
 }
 .bookPreviewTextName{
     text-align: center;
