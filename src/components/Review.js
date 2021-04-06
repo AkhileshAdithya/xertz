@@ -20,6 +20,7 @@ export default class Review extends Component {
         webnovel: true
     }
     componentDidMount(){
+        window.scrollTo(0,0)
         var path = this.props.location.pathname
         var pathEdit = path.substr(6)
         data.forEach(element => {
@@ -47,7 +48,7 @@ export default class Review extends Component {
                 <div className="review">
                     <Row>
                         <Col xs={12} lg={3}>
-                            <Image src={`/${this.state.pic}`} thumbnail className="reviewImage"/>
+                            <Image src={this.state.pic} thumbnail className="reviewImage"/>
                         </Col>
                         <Col xs={12} lg={9} className="align-items-center">
                             <Row>

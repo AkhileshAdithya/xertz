@@ -30,7 +30,7 @@ var data = [
         author:"Friedrich Nietzsche",
         synopsis:"Beyond Good and Evil is a comprehensive overview of Nietzsche's mature philosophy. The book consists of 296 aphorisms, ranging in length from a few sentences to a few pages. These aphorisms are grouped thematically into nine different chapters and are bookended by a preface and a poem.",
         slug:"beyond-good-and-evil",
-        rating:9,
+        rating:8,
         review:"Beyond good and evil is just an angry old man’s ramblings against society. But this rambling in itself is interesting and fun to read. The book feels like an anthology of similarly themed rants of a sad man who’s had too much time to think about life, morals and society. The poem in the end is an amazing take on friendship and individuality.",
         addresses:"Deals with topics such as morals, how morals affect society, how ‘herd’ mentality is prevalent in society, how individuality is more important than social norms. The ‘noble’ part of his work that says how everyone is on a quest to make their own sense of this chaotic world resonates with my own sense of understanding of how this world works. His criticism against religion is an interesting take on how people lose their individuality.",
         cons:"Nietzsche was a misogynist. Though progressiveish for his time, the time held him back. There was also this added layer of sophistication that was not necessary and ruined the meaning of the book. ",
@@ -48,7 +48,22 @@ var data = [
         charactersAndWorld:"LotM is a book with great supporting characters and a rich world that doesn’t cease to surprise. All the characters have their own personalities, their traits, their quirks and their values that makes them feel real and multi-dimensional. The characters are varied and show live in the perspective of all the different people in 18th centuryish England ",
         addresses:"Deals with topics like what it means to be human, till what point can a being with godlike powers can be considered human, the difference in the lifestyles of people belonging to different classes in industrial England, fate and even how everything bestowed comes with a price. Thought provoking and and at the same time entertaining as a story",
         cons:"The ending is extremely hurried and a lot of loose ends are left. This is intentional as the author plans on writing a sequel, but at the moment, it ends without a proper closure giving the invested readers who have read around 1400 chapters a sense of emptiness.",
-        judgement:"Amazing book that’s a must read for all mystery and occult fans. Extremely entertaining and captures the reader’s heart",
+        judgement:"Amazing book that’s a must read for all mystery and occult fans. Extremely entertaining and captures the reader’s heart. AMazinglyHilarious and quirky while still keeping a sense of seriousness.",
+        webnovel: true
+
+    },
+    {   name:"Xian Ni {Renegade Immortal}",
+        pic:"Resources/RenegadeImmortal/renegadeImmortal.jpg" ,
+        author:"Er Gen",
+        synopsis:"Wang Lin is a very smart boy with loving parents. Although he and his parents are shunned by the rest of their relatives, his parents have always held high hopes that he will one day achieve greatness. One day, Wang Lin suddenly gained the chance to walk the path of an immortal but found that he only had mediocre talent at best. Watch Wang Lin as he breaks through his lack of talent and walks the path towards becoming a real immortal! ",
+        slug:"xian-ni",
+        rating:8,
+        review:"Xian Ni is a good read that doesn't follow the standard xianxia/xianhuan tropes. An intelligent read that tells the story of Wang Lin, a young filial boy who carries the hope of his family and the way the world around him that shapes him. Only negative point in the book is the HORRIBLE romance. The book would have been waaaaay better off without the romance part in it.",
+        protagonist:"Wang Lin is a multidimensional character moulded by the uiverse he resides in. We witness as he changes from a naive young boy shouldering the hopes of his family to the point when he becomes a cold blooded, ruthless murderer who tries to achieve a simple goal of living a life where he isn't bounded by anyone. Even though he commits wanton acts of murder, he still retains his morals not in the sense of being a hypocrite, but in the sense of being a human.",
+        charactersAndWorld:"The world in Xian Ni is a dark and depressing one that has some coulourful parts to it. The system of power in the book is well defined and the parts that contain Wang Lin's dao comprehension as well as the mortal arcs are really good. Some of the antagonists and supporting characters are momorable and have a really strong part in the narrative process. The very start of the book lacks the sense of severity of actions that's found in the rest of the book. Some stuff do end up being inconsistent in the long run as the novel has around 2000 chapters.",
+        addresses:"Xian Ni tells how humans are shaped by their circumstances. In a dark, gritty world where personal power is valued that most, the characters that come out are going to be dark and gritty themselves. The books also talks about life, death and how the very knowledge of life and death of loved ones can change a person to the point that that they would become unrecognisable.",
+        cons:"Horrible romance. Absolutely horrible to the extent that the romance brings down the quality of the entire book. A considerable number of plotholes that could possibly break the story. Some exaggerated details like beings of like millions of kilometers in size sorta destroy the ability that makes people imagine",
+        judgement:"A good read for a newbie in xianxia/xuanhuan. Keeps reader engaged throughout the story. Well written characters keeps you interested. Same issue of repeating the same stuff over and over again still exists",
         webnovel: true
 
     }

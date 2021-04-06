@@ -10,6 +10,7 @@ export default class TopBooks extends Component {
         sortedData: []
     }
     componentDidMount(){
+        window.scrollTo(0,0)
         var data = this.sortArray(unsortedData)
         var data2 = data.slice(0,10)
         this.setState({sortedData : data2})

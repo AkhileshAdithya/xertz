@@ -9,6 +9,7 @@ export default class AllBooks extends Component {
         sortedData: []
     }
     componentDidMount(){
+        window.scrollTo(0,0)
         var data = this.sortArray(unsortedData)
         this.setState({sortedData : data})
     }
