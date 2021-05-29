@@ -3,9 +3,9 @@
     margin-bottom: 2vh;
 }
 .bookPreview:hover{
-    box-shadow: 7px 8px 48px -8px rgba(0,0,0,0.6);
-    -webkit-box-shadow: 7px 8px 48px -8px rgba(0,0,0,0.6);
-    -moz-box-shadow: 7px 8px 48px -8px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 5px 5px 15px -6px #000000; 
+    box-shadow: 5px 5px 15px -6px #000000;
+    -moz-box-shadow: 5px 5px 15px -6px #000000;
     scale: 101%;
     cursor: pointer;
 }

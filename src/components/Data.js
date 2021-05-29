@@ -66,6 +66,20 @@ var data = [
         judgement:"A good read for a newbie in xianxia/xuanhuan. Keeps reader engaged throughout the story. Well written characters keeps you interested. Same issue of repeating the same stuff over and over again still exists",
         webnovel: true
 
+    },
+    {   name:"World Of Cultivation",
+        pic:"Resources/WorldOfCultivation/worldOfCultivation.jpg" ,
+        author:"Fang Xiang",
+        synopsis:"Some are born great, some achieve greatness and some have greatness thrust upon them. Zuo Mo is a zombie faced low level cultivator in a minor sect of a little world. Ever since he was picked up by the sect leader two years ago, he has no memories of his earlier life except a recurring nightmare. Navigating the rigid class structure and intricacies of the cultivation world, as one of the lowest possible of the lowest class, Zuo Mo’s dream is to earn money, and lots of it, through being a spiritual plant farmer. A chance occurrence reveals that someone powerful had changed Zuo’s features and erased his mind. The money grubbing zombie decides to set out on a journey of cultivation to find out answers. Fate colludes with chance, the drums of war are beating, the ghost of his past is coming…",
+        slug:"world-of-cultivation",
+        rating:7,
+        review:"World of cultivation is a fresh xianxia that shows how good a web novel could be if the author chooses to actually plot out the story instead of fleshing it out. The novel doesn’t suffer from the standard cliched hero and 1D characters. It has some creative ideas along with memorable recurring characters. We see the protagonist Zuo Mo who started off farming, preferring a life of earning money, enter the world of martial arts and cultivation and creating his own force that could decide the fate of the world.",
+        protagonist:"Shameless. Thick-skinned. Money-minded. Shrewd. The protagonist is realistic and lifelike. When compared to Wei Sheng, who seems more of a standard xianxia protagonist with his “unyielding will” and sword talent, Zuo Mo spends his time thinking of making money. His existence is like a breath of fresh air when compared to the standard xianxia novel.",
+        charactersAndWorld:"As a novel with “World of Cultivation” in its title, it delivers. Great world building with memorable characters that don’t feel bland. No one or no group exactly feels like an antagonistic entity. Each character is driven by their own motivation. But the author fails to keep up with the expanding world building in the end and ends up losing the main factor that kept the book interesting and different from its peers.",
+        addresses:" Main ideology in the book is conflict and wars. It tells a tale of the pitiful existence of an individual when faced against the tides of war. It’s also a tale of friendship, humour and faction building. The story has a very “human” feeling in it.",
+        cons:"A very hurried ending. Quite a few plot holes in the magic system that’s being used. Poor romance and missed chances. Feels as if the author who finished the second half of the book was a different one. A lot of plot holes that could break the experience of the book. Some characters are introduced and then forgotten. Quite a number of characters, including the sect leaders of the MC are just killed off in the background, making the plot feel like it’s barely held together.",
+        judgement:" Standard example of a book with a good theory and idea coupled with bad execution.",
+        webnovel: true
     }
     
 ]
