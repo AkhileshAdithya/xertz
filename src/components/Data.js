@@ -48,7 +48,7 @@ var data = [
         charactersAndWorld:"LotM is a book with great supporting characters and a rich world that doesn’t cease to surprise. All the characters have their own personalities, their traits, their quirks and their values that makes them feel real and multi-dimensional. The characters are varied and show live in the perspective of all the different people in 18th centuryish England ",
         addresses:"Deals with topics like what it means to be human, till what point can a being with godlike powers can be considered human, the difference in the lifestyles of people belonging to different classes in industrial England, fate and even how everything bestowed comes with a price. Thought provoking and and at the same time entertaining as a story",
         cons:"The ending is extremely hurried and a lot of loose ends are left. This is intentional as the author plans on writing a sequel, but at the moment, it ends without a proper closure giving the invested readers who have read around 1400 chapters a sense of emptiness.",
-        judgement:"Amazing book that’s a must read for all mystery and occult fans. Extremely entertaining and captures the reader’s heart. AMazinglyHilarious and quirky while still keeping a sense of seriousness.",
+        judgement:"Amazing book that’s a must read for all mystery and occult fans. Extremely entertaining and captures the reader’s heart. Hilarious and quirky while still keeping a sense of seriousness.",
         webnovel: true
 
     },
@@ -79,6 +79,21 @@ var data = [
         addresses:" Main ideology in the book is conflict and wars. It tells a tale of the pitiful existence of an individual when faced against the tides of war. It’s also a tale of friendship, humour and faction building. The story has a very “human” feeling in it.",
         cons:"A very hurried ending. Quite a few plot holes in the magic system that’s being used. Poor romance and missed chances. Feels as if the author who finished the second half of the book was a different one. A lot of plot holes that could break the experience of the book. Some characters are introduced and then forgotten. Quite a number of characters, including the sect leaders of the MC are just killed off in the background, making the plot feel like it’s barely held together.",
         judgement:" Standard example of a book with a good theory and idea coupled with bad execution.",
+        webnovel: true
+    },
+    {
+        name:"The Strongest System",
+        pic:"Resources/TheStrongestSystem/theStrongestSystem.jfif" ,
+        author:"Xin Feng",
+        synopsis:"\"Yours Truly shall have all of you bow down to me!\" Arriving in this brand-new world, Lin Fan found himself in possession of a system which allows him to level up indefinitely unbounded by the limitations of this world. Upon learning a powerful technique of Monkey Steals Peaches, Lin Fan realises that he’s poised to literally become the strongest person in this entire world. But of course, how boring would that be unless the whole world gets to know about his great name? Shameless. Righteous. Smart. Lin Fan will let no one stand in his way to glory!",
+        slug:"the-strongest-system",
+        rating:9,
+        review:"Hilarious, funny and crass. A book not meant to be enjoyed by everyone. The author utilizes crass jokes from shooting down a god with a giant OP dildo, to using custom viagra to make the lightning striking him \"run out of juice\", to dressing up Chicky in an inflatable T-rex costume. Hilarious book that remains enjoyable even though some of the arcs tend to be repeated.",
+        protagonist:"'HOW BRAZEN' 'I'M BRAZEN?! 'YOURS TRULY IS A GOD AMONGST MEN' 'ALL HAIL THE MOTHERF*CKING HUAM KING'. Lin Fan’s lack of self-reflection - or rather, his incredible ability to rationalize all of his ridiculous decisions - is one of the best selling points of this webnovel. The character is willing to do anything to progress in his cultivation. Kicking other’s balls, and even kicking his own balls. The reader will end up liking this narcissistic self serving goofball of a protagonist",
+        charactersAndWorld:"World Building is one of the worst parts in the book. Not that it’s bad. But the fact that it could have been better. Waay better. Main character ends up jumping from one realm to another after ‘ascending’. The 1000 races is a huge missed opportunity. All things considered, it still ends up having better world building than most of the other web novels out there. The side characters in this webnovel are a blast. Reverend Shakya with his huge chest, chicky the tailless phoenix and even Yao wuxie with his undefeatable fart are not forgettable",
+        addresses:" A boorish book written in a vulgar language that has a few serious moments here and there. The gap in the protagonist’s attitude makes all the serious matters feel real and also makes the readers sympathise with the protagonist. The ending of the book is poetically tragic and does justice to the story.",
+        cons:"Lots of missed potential. A few arcs seem repetitive. Loads of fillers. Not that the fillers aren’t enjoyable, but that the fillers end up derailing the main story",
+        judgement:"Amazing read if you're up for crass humour and jokes.",
         webnovel: true
     }
     

@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Col, Container, Row, Image } from 'react-bootstrap'
 import './Review.css'
 
-var data = module.require("./Data")
+var data = require("./Data")
 var dataProc = []
 export default class Review extends Component {
     state = {

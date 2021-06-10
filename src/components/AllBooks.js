@@ -2,7 +2,8 @@ import React, { Component } from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import BookPreview from './BookPreview'
 
-var unsortedData = module.require("./Data")
+var unsortedData
+unsortedData = require("./Data.js");
 
 export default class AllBooks extends Component {
     state = {
