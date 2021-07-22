@@ -95,6 +95,21 @@ var data = [
         cons:"Lots of missed potential. A few arcs seem repetitive. Loads of fillers. Not that the fillers aren’t enjoyable, but that the fillers end up derailing the main story",
         judgement:"Amazing read if you're up for crass humour and jokes.",
         webnovel: true
+    },
+    {
+        name:"Experimental Log of the Crazy Lich",
+        pic:"Resources/ELCL/eLCL.jpg" ,
+        author:"Angry Squirrel",
+        synopsis:"This is the story of a crazy lich who possesses an internal game system and brings catastrophe to the entire world. “Let’s look at the daily quests today… it’s the damned choose one-of-two-options-type again. Destroy a town with a population of 30,000 people or above; reward: 10,000 evil points. Steal lollipops from 3 children; reward: 1 evil point. If neither of the quests is completed, then 2 points will be deducted.” “Tsk! You think I’m stupid? If I really destroyed a town, a crusade of Myth-ranked Holy Knights would definitely come hunting me down. Even if I earned the points, there wouldn’t be any life left in me to spend them. I better just go be a kindly lollipop bandit.” I’ve already had enough of being a notorious lich. Who says a lich can’t be a good person? I’m definitely going to beat this damned system and be an upright and dignified good man",
+        slug:"experimental-log-of-the-crazy-lich",
+        rating:10,
+        review:"Hilarious, quirky and light hearted. The plot is genius, and the comedy neat. The story is engaging and commands attention. A few minor plot holes, but they end up being filled by the author. Every action has a sense of effect in the universe and keeps you on your toes. The story is a mixture of humour, DnD and 4th wall breaking references that leaves you in awe with the breadth of the story.",
+        protagonist:"The protagonist Roland Mist starts off as a “Lich” in the story. We see an almost mature MC who’s in his 4th reincarnation. Cursed with the aura of misfortune, we see him muttering “Are we the bad guys” even while saving the world. ‘What is reputation? Can I eat it?’ pretty much sums up his attitude towards the world.",
+        charactersAndWorld:"The world being is one of THE best parts about this webnovel. The side characters pretty much make the entire narrative more lively and interesting. A nudist cult, an explosive maniac, sociopathic scientists, goblins with their “safe” brand, a furry loving dracon who f*cks anything and everything and doesnt even spare a sandworm from Dune, Krose whose gender is Krose, an alchemist whose concoctions are so dangerous she doesn't dare to drink them and a merry band of “gentlemen”.",
+        addresses:" Despite the humorous background, the book carries a heavy story about betrayal, love, struggle against destiny, mortality and free-will versus the greater good. We see the classic man v/s world thingy",
+        cons:" Some abrupt jumps in the storytelling leads to inconsistency. Minor plot holes.",
+        judgement:"One of the best CN fusion novels out there. Highly recommended if you have any experience with DnD.",
+        webnovel: true
     }
     
 ]
