@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, Navigate } from 'react-router-dom';
 import Blog from './Blog';
 import AllBooks from './AllBooks';
 import TopBooks from './TopBooks';
@@ -12,6 +12,7 @@ const Body: React.FC = () => {
       <Route path="/all" element={<AllBooks />} />
       <Route path="/top" element={<TopBooks />} />
       <Route path="/book/:slug" element={<Review />} />
+      <Route path="*" element={<Navigate to="/" replace />} />
     </Routes>
   );
 };
