@@ -185,7 +185,7 @@ a:hover, a:visited, a:link, a:active {
 
 .reviewTextName {
   text-align: center;
-  font-size: 7vh;
+  font-size: 6vh;
   padding-top: 0.5vh;
   padding-bottom: 0.5vh;
   font-weight: 600;
@@ -235,7 +235,7 @@ a:hover, a:visited, a:link, a:active {
 }
 
 .reviewContent .reviewMainTitle {
-  font-size: 5vh;
+  font-size: 4vh;
   font-weight: 600;
   margin-bottom: 2vh;
   margin-top: 3vh;
@@ -246,7 +246,7 @@ a:hover, a:visited, a:link, a:active {
 }
 
 .reviewContent .reviewSectionTitle {
-  font-size: 3.5vh;
+  font-size: 3vh;
   font-weight: 600;
   margin-bottom: 1.5vh;
   margin-top: 2.5vh;
@@ -256,7 +256,7 @@ a:hover, a:visited, a:link, a:active {
 }
 
 .reviewContent .reviewSubSectionTitle {
-  font-size: 3vh;
+  font-size: 2vh;
   font-weight: 600;
   margin-bottom: 1vh;
   margin-top: 2vh;
