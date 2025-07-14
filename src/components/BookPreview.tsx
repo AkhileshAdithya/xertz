@@ -1,6 +1,5 @@
 import React from 'react';
 import { Container, Row, Col, Image } from 'react-bootstrap';
-import './BookPreview.css';
 
 interface BookPreviewProps {
   name: string;

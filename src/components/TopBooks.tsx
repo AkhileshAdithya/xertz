@@ -2,9 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
 import BookPreview from './BookPreview';
-import { data } from '../data/Data';
+import { data } from '../data/BookLoader';
 import type { Book } from '../types/Book';
-import './TopBooks.css';
 
 const TopBooks: React.FC = () => {
   const [sortedData, setSortedData] = useState<Book[]>([]);
@@ -39,7 +38,7 @@ const TopBooks: React.FC = () => {
                 name={book.name} 
                 pic={book.pic} 
                 author={book.author} 
-                synopsis={book.synopsis} 
+                synopsis={book.synopsis || ''} 
                 rating={book.rating} 
               />
             </Col>

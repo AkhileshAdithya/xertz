@@ -1,15 +1,14 @@
 export interface Book {
+  // Mandatory fields
   name: string;
-  pic: string;
   author: string;
-  synopsis: string;
-  slug: string;
   rating: number;
+  pic: string;
+  slug: string;
+  
+  // Flexible review content as markdown
   review: string;
-  protagonist?: string;
-  charactersAndWorld?: string;
-  addresses: string;
-  cons: string;
-  judgement: string;
-  webnovel: boolean;
+  
+  // Convenience fields for backward compatibility
+  synopsis?: string;
 }

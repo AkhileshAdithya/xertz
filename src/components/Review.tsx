@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { Col, Container, Row, Image } from 'react-bootstrap';
 import { useParams } from 'react-router-dom';
-import { data } from '../data/Data';
+import { data } from '../data/BookLoader';
 import type { Book } from '../types/Book';
-import './Review.css';
+import MarkdownRenderer from './MarkdownRenderer';
 
 const Review: React.FC = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -48,48 +48,16 @@ const Review: React.FC = () => {
             </Row>
           </Col>
         </Row>
+        
+        {/* Render the flexible markdown review content */}
         <Row>
-          <Col lg={12} className="reviewTextSynopsis">
-            <b>Synopsis:</b> {book.synopsis}
+          <Col lg={12}>
+            <MarkdownRenderer 
+              content={book.review} 
+              className="reviewContent"
+            />
           </Col>
         </Row>
-        {book.webnovel ? 
-          <Row>
-            <Col lg={12} className="reviewTextReview reviewTextReviewTop">
-              <b>Review:</b> {book.review}
-            </Col>    
-            <Col lg={12} className="reviewTextReview">
-              <b>Protagonist:</b> {book.protagonist}
-            </Col>
-            <Col lg={12} className="reviewTextReview">
-              <b>World Building:</b> {book.charactersAndWorld}
-            </Col>
-            <Col lg={12} className="reviewTextReview">
-              <b>Complex Ideas:</b> {book.addresses}
-            </Col>
-            <Col lg={12} className="reviewTextReview">
-              <b>Criticism:</b> {book.cons}
-            </Col> 
-            <Col lg={12} className="reviewTextReview reviewTextReviewBottom">
-              <b>Final Judgement:</b> {book.judgement}
-            </Col>                     
-          </Row>
-          :
-          <Row>
-            <Col lg={12} className="reviewTextReview reviewTextReviewTop">
-              <b>Review:</b> {book.review}
-            </Col>
-            <Col lg={12} className="reviewTextReview">
-              <b>Complex Ideas:</b> {book.addresses}
-            </Col>
-            <Col lg={12} className="reviewTextReview">
-              <b>Criticism:</b> {book.cons}
-            </Col> 
-            <Col lg={12} className="reviewTextReview reviewTextReviewBottom">
-              <b>Final Judgement:</b> {book.judgement}
-            </Col>                     
-          </Row>
-        }
       </div>
     </Container>
   );
