@@ -74,10 +74,50 @@ To add a new book review:
 
 Visit the live site: [https://akhileshadithya.github.io/xertz](https://akhileshadithya.github.io/xertz)
 
+## Deployment
+
+### Automatic Deployment
+
+This project is configured with automatic deployment to GitHub Pages. When you push changes to the `master` branch, the site will automatically build and deploy.
+
+**How it works:**
+- A git pre-push hook triggers when pushing to master
+- Automatically runs `npm run build && gh-pages -d dist`
+- Deploys the built site to the `gh-pages` branch
+- Updates the live site at https://akhileshadithya.github.io/xertz
+
+**Git Hook Setup:**
+- Git hooks are automatically installed when you run `npm install`
+- The hook script is stored in `hooks/pre-push` and copied to `.git/hooks/pre-push`
+- This ensures all contributors get the same deployment behavior
+
+### Manual Deployment
+
+To deploy manually at any time:
+
+```bash
+npm run deploy
+```
+
+This command will:
+1. Build the project (`npm run build`)
+2. Deploy the `dist` folder to GitHub Pages
+
+### Git Hooks Management
+
+If you need to manually install or reinstall the git hooks:
+
+```bash
+npm run setup-hooks
+```
+
+This copies the hook from `hooks/pre-push` to `.git/hooks/pre-push` and makes it executable.
+
 ## Development Scripts
 
 - `npm run dev` - Start development server
 - `npm run build` - Build for production
+- `npm run deploy` - Build and deploy to GitHub Pages
 - `npm run lint` - Run ESLint
 - `npm run preview` - Preview production build locally
 

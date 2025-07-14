@@ -1,0 +1,27 @@
+#!/bin/bash
+
+# Git pre-push hook for automatic deployment
+# This hook runs before git push and automatically deploys to GitHub Pages
+# when pushing to the master branch
+
+protected_branch='master'
+current_branch=$(git symbolic-ref HEAD | sed -e 's,.*/\(.*\),\1,')
+
+# Check if we're pushing to master branch
+if [ $protected_branch = $current_branch ]; then
+    echo "Pushing to master branch - triggering automatic deployment..."
+    
+    # Run the deploy script
+    npm run deploy
+    
+    if [ $? -eq 0 ]; then
+        echo "Deployment completed successfully!"
+    else
+        echo "Deployment failed, but continuing with git push..."
+    fi
+else
+    echo "Pushing to $current_branch branch - no deployment triggered"
+fi
+
+# Always allow the push to continue
+exit 0
